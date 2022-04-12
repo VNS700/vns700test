@@ -1,0 +1,105 @@
+.narrow {
+  max-width: 100%;
+  max-height:100%;
+  margin: 0 auto;
+}
+
+.page-padding {
+  padding: 5px;
+}
+
+
+
+.center {
+  text-align: left;
+}
+
+.sections > * {
+  margin: 4rem auto;
+}
+.sections{
+  border: 1px solid red;
+}
+
+pre,
+div.error {
+  background-color: #e5e5e5;
+  padding: 1rem;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  margin: 1rem 0;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+pre.fixed,
+div.error.fixed {
+  height: 200px;
+}
+
+code {
+  background-color: #e5e5e5;
+  display: inline-block;
+  padding: 0px 6px;
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.error {
+  color: red;
+}
+
+
+table {
+  border: 1px solid black;
+  border-collapse:collapse;
+  width:100%;
+  height:100%;
+}
+
+td {
+  border: 1px solid black;
+  border-collapse:collapse;
+  height:100%;
+  width:100%;
+}
+
+tr {
+  vertical-align:top;
+}
+
+th {
+  border: 1px solid black;
+  border-collapse:collapse;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.buttonone {
+  align-items: center;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+
+.buttononemain {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 12px;
+}
+
+.buttontwo {
+  align-items: center;
+  padding: 10px;
+}
+
+.buttontwomain {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 12px;
+}
+
+.welcome.page{
+  float: left;
+  width:100%;
+  height:100%;
+}
